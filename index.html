@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <style> /* Imported Font Styles   */
+        @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Great+Vibes&display=swap');
+       
+    
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+Iso&family=Tourney:wght@100&display=swap');
+
+      
+        @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Nabla&family=Pacifico&display=swap');
+    </style>
+    <style> /* CSS Design*/
+     body{
+        background-color: rgb(216,167,167);
+        
+     }
+     #clicker{
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+        width: 200px;
+        height: 70px;
+        
+        border-style:groove;
+        border-color: aliceblue;
+        border-radius: 1cm;
+        margin-left: 100px;
+       
+
+     }
+     #clicker2 {
+        background-color: black;
+        color: rgb(255, 255, 255);
+        width: 200px;
+        height: 70px;
+        border-style:groove;
+        border-color: aliceblue;
+        border-radius: 1cm;
+        margin-left: 70px;
+        
+        
+       
+
+     }
+     #clicker3 {
+        background-color: black;
+        color: rgb(255, 255, 255);
+        width: 200px;
+        height: 70px;
+        border-style:groove;
+        border-color: aliceblue;
+        border-radius: 1cm;
+        margin-left: 70px;}
+
+
+
+    #clicker4 {
+        background-color: black;
+        color: rgb(255, 255, 255);
+        width: 200px;
+        height: 70px;
+        border-style:groove;
+        border-color: aliceblue;
+        border-radius: 1cm;
+        margin-left: 70px;}
+
+    #clicker5 {
+        background-color: black;
+        color: rgb(255, 255, 255);
+        width: 200px;
+        height: 70px;
+        border-style:groove;
+        border-color: aliceblue;
+        border-radius: 1cm;
+        margin-left:70px;
+    }
+
+
+    h1 {
+        text-align: center;
+        background-color: aliceblue;
+        padding: 10px;
+    }
+    #logo {
+        width: 500px;
+        top: 20px;
+    }
+    .space {
+        background-color: rgb(255, 255, 255);
+        
+    }
+        
+
+    #bgPic {
+        position:relative;
+        width: 1500px;
+       margin-top: -20px;
+    }
+    
+    .welcome {
+        position:absolute;
+        top: 640px;
+        left:410px;
+        font-size:100px;
+        font-family: 'Press start 2p', cursive;
+        color: rgb(62, 6, 20);
+       }
+       #clicker:hover{
+        background-color: rgb(106, 31, 70);
+       }
+       #clicker2:hover{
+        background-color: rgb(106, 31, 70);
+       }
+       #clicker3:hover{
+        background-color: rgb(106, 31, 70);
+       }
+       #clicker4:hover{
+        background-color: rgb(106, 31, 70);
+       }
+       #clicker5:hover{
+        background-color: rgb(106, 31, 70);
+       }
+
+
+
+
+
+
+    </style>
+    <body>
+        <h1>  </h1>
+        <center><img id = "logo" src = "Jiya's logo.png"></center>
+        <h1 class="space"></h1>
+        <button id = "clicker">Chronicles of life</button>
+        <button id = "clicker2"> Memories</button>
+        <button id = "clicker3"> Dreams</button>
+        <button id = "clicker4"> Binge It! </button>
+        <button id = "clicker5"> About Me </button>
+        <h1 class = "space"></h1>
+        <center><img id = "bgPic" src ="bg image.jpg"></center>
+        <h2 class = "welcome"><em>  Welcome </em></h2>
+
+
+
+    <script>
+
+        var clickerButton = document.getElementById("clicker");
+        var onButtonClick = function() {
+        clickerButton= window.location.href ="http://127.0.0.1:3000/c:/Users/hp/Desktop/htmls/blog 1.html";
+    };
+    clickerButton.addEventListener("click", onButtonClick);
+        var clickerButton2 = document.getElementById('clicker2');
+        var onButtonClick2 = function(){
+            clickerButton2 = window.location.href ="http://127.0.0.1:3000/c:/Users/hp/Desktop/htmls/Memories.html";
+        }
+        clickerButton2.addEventListener('click', onButtonClick2)
+
+        var clickerbutton3 = document.getElementById("clicker3");
+        var onbuttonclick3 =function(){
+            clickerbutton3 = window.location.href = "http://127.0.0.1:3000/c:/Users/hp/Desktop/htmls/Dreams.html";
+        } ;
+        clickerbutton3.addEventListener("click", onbuttonclick3);
+
+        var clickerbutton4 = document.getElementById("clicker4");
+        var onbuttonclick4 =function(){
+            clickerbutton4 = window.location.href = "http://127.0.0.1:3000/c:/Users/hp/Desktop/htmls/Binge It!.html";
+        };
+        clickerbutton4.addEventListener("click", onbuttonclick4);
+
+        var clickerbutton5 = document.getElementById("clicker5");
+        var onbuttonclick5 =function(){
+            clickerbutton5 = window.location.href = "http://127.0.0.1:3000/c:/Users/hp/Desktop/htmls/About me.html";
+        } ;
+        clickerbutton5.addEventListener("click", onbuttonclick5);
+
+        </script>
+    </body>
+</html>
